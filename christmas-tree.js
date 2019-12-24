@@ -7,7 +7,7 @@ let r = stuff.length - 1
 for (let n = 1; n <= treeSize; n ++) {
 	let treePart = ''
 	for (let i = treeSize - n; i > 0; i --) {
-		treePart += " "
+		treePart += ' '
 	}
 	for (let i = 1; i <= w; i ++) {
 		treePart += `${stuff[r]}`
